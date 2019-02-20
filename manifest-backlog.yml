@@ -2,7 +2,7 @@ applications:
 - name: tracker-backlog-batch2
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
-  - route: backlog-pal-vismaya.api.system.dev.pcf-aws.com
+  - route: backlog-pal-vismaya.apps.system.dev.pcf-aws.com
   memory: 1G
   instances: 1
   env:

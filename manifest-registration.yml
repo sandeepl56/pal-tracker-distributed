@@ -2,7 +2,7 @@ applications:
 - name: tracker-registration-batch2
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-vismaya.api.system.dev.pcf-aws.com
+  - route: registration-pal-vismaya.apps.system.dev.pcf-aws.com
   memory: 1G
   instances: 1
   env:
