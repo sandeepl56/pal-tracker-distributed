@@ -1,5 +1,5 @@
 applications:
-- name: tracker-allocations
+- name: tracker-allocations-batch2
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
   - route: allocations-pal-vismaya.api.system.dev.pcf-aws.com
