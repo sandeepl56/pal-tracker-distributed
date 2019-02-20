@@ -1,5 +1,5 @@
 applications:
-- name: tracker-registration-batch2
+- name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
   - route: registration-pal-vismaya.apps.dev.pcf-aws.com

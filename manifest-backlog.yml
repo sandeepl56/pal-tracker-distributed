@@ -1,12 +1,12 @@
 applications:
-- name: tracker-backlog-batch2
+- name: tracker-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
   - route: backlog-pal-vismaya.apps.dev.pcf-aws.com
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-vismaya.api.system.dev.pcf-aws.com
+    REGISTRATION_SERVER_ENDPOINT: https://registration-pal-vismaya.api.system.dev.pcf-aws.com
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-backlog-database
